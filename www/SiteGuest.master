@@ -1,0 +1,24 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="SiteGuest.master.cs" Inherits="SiteGuest" %>
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head id="Head1" runat="server">
+    <meta charset="utf-8" />
+    <title>RPSLS Game</title>
+    <link href="~/Site.css" rel="stylesheet" type="text/csse" />
+    <asp:ContentPlaceHolder id="headGuest" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <h1 class="DDMainHeader">Rock-paper-scissors-lizard-Spock Game</h1>
+    <div class="DDNavigation">
+    </div>
+    <form id="defaultGuestForm" runat="server">
+        <div class="DDMainContent">
+            <asp:ContentPlaceHolder id="bodyGuest" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>

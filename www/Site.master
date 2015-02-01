@@ -1,0 +1,36 @@
+﻿<%@ Master Language="C#" CodeFile="Site.master.cs" Inherits="Site" %>
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head runat="server">
+    <meta charset="utf-8" />
+    <title>RPSLS Game</title>
+    <link href="~/Site.css" rel="stylesheet" type="text/csse" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <h1 class="DDMainHeader">
+        Rock-paper-scissors-lizard-Spock Game
+        <<       
+        <asp:Label ID="Hi" runat="server" Text="Hi" style="color: black"></asp:Label>
+        <asp:HyperLink ID="UserNameLink" runat="server" NavigateUrl="~/UserAdmin.aspx"></asp:HyperLink>    
+        <asp:Label ID="UserBirth" runat="server" Text="" style="color: black"></asp:Label>
+        >>
+    </h1>
+    <form id="defaultForm" runat="server">
+        <div class="DDNavigation">
+            <asp:HyperLink ID="HomePage" runat="server" NavigateUrl="~/Default.aspx" Enabled="True">[Play Again!]</asp:HyperLink>
+            <asp:HyperLink ID="Statistics" runat="server" NavigateUrl="~/Statistics.aspx" Enabled="True">[Statistics]</asp:HyperLink> 
+            <asp:LinkButton ID="Logout"  OnClick="UserLogout_Click"  Enabled="True" runat="server">[Logout]</asp:LinkButton>   
+        </div>
+ 
+        <div class="DDMainContent">
+            <asp:ContentPlaceHolder id="body" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
+

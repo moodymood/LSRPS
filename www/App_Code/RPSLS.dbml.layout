@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="RPSLS">
+  <DataContextMoniker Name="/RPSLSDataContext" />
+  <nestedChildShapes>
+    <classShape Id="f14360c5-49bb-484e-bef7-d98ba3a91224" absoluteBounds="2.625, 1.25, 2, 1.9631982421875">
+      <DataClassMoniker Name="/RPSLSDataContext/User" />
+      <nestedChildShapes>
+        <elementListCompartment Id="801c6497-230d-4768-8583-165462fdafcc" absoluteBounds="2.64, 1.71, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
